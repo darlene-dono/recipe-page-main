@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(24, 5%, 18%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.5rem;
+  max-width: 735px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+h1 {
+  font-family: 'Young Serif', serif;
+  color: hsl(24, 5%, 18%);
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-family: 'Outfit', sans-serif;
+  color: hsl(332, 51%, 32%);
+  font-size: 1.3rem;
+  font-weight: medium;
+  margin-bottom: 0.8rem;
+}
+
+p {
+  line-height: 1.6;
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 1.8rem;
+}
+
+
+.prep-time {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.prep-time ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+  color: hsl(30, 10%, 34%);
+  font-size: 0.95rem;
+}
+
+.prep-time li {
+  margin-bottom: 0.6rem;
+}
+
+.prep-time span {
+    font-weight: bold;
+}
+
+
+.ingredients ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.ingredients li {
+  margin-bottom: 0.5rem;
+}
+
+.ingredients h1 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-size: 1.8rem;
+}
+
+.ingredients hr {
+  border: none;
+  border-top: 1px solid hsl(30, 18%, 87%);
+  margin-top: 1rem;
+}
+
+.instructions h1 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-size: 1.8rem;
+}
+
+.instructions ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.instructions li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  padding-left: 0.5rem;
+}
+
+.instructions hr {
+  border: none;
+  border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+.instructions span {
+    font-weight: bold;
+}
+
+.nutrition h1{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-size: 1.8rem;
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.nutrition td {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition td:first-child {
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition td:last-child {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+
+.attribution {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.attribution a {
+  color: hsl(14, 45%, 36%);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
