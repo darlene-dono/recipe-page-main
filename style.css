@@ -198,7 +198,7 @@ p {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   body {
     padding: 1rem;
   }
